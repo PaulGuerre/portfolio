@@ -79,6 +79,7 @@
             width: 100%;
             height: 100%;
             position: relative;
+            top: 0;
         }
 
         .menu-title, .menu-desc, .menu-links, .menu-list {
