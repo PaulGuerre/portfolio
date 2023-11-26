@@ -51,7 +51,6 @@
         justify-content: center;
         gap: 100px;
         background-color: #000;
-        z-index: 2;
     }
 
     @media (max-width: 768px) {
