@@ -36,6 +36,7 @@
         width: 20%;
     
         & img {
+            border: 2px solid #128fd8;
             width: 50%;
             margin: 25px;
             border-radius: 50px;
@@ -53,7 +54,7 @@
         margin-top: 25px;
         cursor: pointer;
         text-decoration: none;
-        color: #00FF00;
+        color: #128fd8;
     }
     
     .clients-desc {

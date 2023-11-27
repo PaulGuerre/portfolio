@@ -27,9 +27,9 @@
     .app {
         display: grid;
         width: 100%;
-        background-color: #000;
+        background-color: #fff;
         font-family: 'Roboto', sans-serif;
-        color: #00FF00;
+        color: #128fd8;
     }
 
     .main {
@@ -50,7 +50,7 @@
         align-items: start;
         justify-content: center;
         gap: 100px;
-        background-color: #000;
+        background-color: #fff;
     }
 
     @media (max-width: 768px) {

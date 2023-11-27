@@ -62,7 +62,7 @@
         font-size: 20px;
         font-weight: bold;
         text-decoration: none;
-        color: #00FF00;
+        color: #128fd8;
         cursor: pointer;
         margin: 0;
     }
@@ -79,7 +79,7 @@
         flex-wrap: wrap;
 
         & p {
-            background-color: #00FF00;
+            background-color: #128fd8;
             color: #000;
             font-size: 15px;
             font-weight: bold;

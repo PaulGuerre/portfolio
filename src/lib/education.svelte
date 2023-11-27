@@ -51,7 +51,7 @@
         font-weight: bold;
         text-decoration: none;
         cursor: pointer;
-        color: #00FF00;
+        color: #128fd8;
     }
 
     .education-subtitle {

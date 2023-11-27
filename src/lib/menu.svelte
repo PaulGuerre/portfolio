@@ -58,7 +58,7 @@
             font-size: 20px;
             font-weight: bold;
             cursor: pointer;
-            color: #00FF00;
+            color: #128fd8;
         }
     }
 
