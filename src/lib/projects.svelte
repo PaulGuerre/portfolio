@@ -80,7 +80,7 @@
 
         & p {
             background-color: #128fd8;
-            color: #000;
+            color: #fff;
             font-size: 15px;
             font-weight: bold;
             border-radius: 8px;
@@ -96,5 +96,9 @@
         .projects-card {
             padding: 5%;
         }
+    }
+
+    :global(body.dark-mode) .projects-tags p {
+        color: #333;
     }
 </style>

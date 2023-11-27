@@ -2,6 +2,17 @@
     import mail from '../lib/images/mail.svg';
     import github from '../lib/images/github.svg';
     import linkedin from '../lib/images/linkedin.svg';
+    import sun from '../lib/images/sun.svg';
+    import moon from '../lib/images/moon.svg';
+    import { writable } from 'svelte/store';
+
+    const isDarkMode = writable(false);
+
+    const toggleTheme = () => {
+        isDarkMode.update(value => !value);
+        window.document.body.classList.toggle('dark-mode');
+        window.document.body.style.backgroundColor = $isDarkMode ? '#333' : '#fff';
+    }
 </script>
 
 <section class="menu">
@@ -14,6 +25,9 @@
         <p on:click={() => document.getElementById("education").scrollIntoView({ behavior: 'smooth' })}>Education</p>
         <p on:click={() => document.getElementById("projects").scrollIntoView({ behavior: 'smooth' })}>Projects</p>
         <p on:click={() => document.getElementById("clients").scrollIntoView({ behavior: 'smooth' })}>Clients</p>
+    </div>
+    <div class="menu-theme">
+        <img on:click={toggleTheme} src={$isDarkMode ? sun : moon} alt="Theme logo" />
     </div>
     <div class="menu-links">
         <a href="mailto:contact@paulguerre.fr"><img src={mail} alt="Mail logo" /></a>
@@ -44,6 +58,11 @@
         font-size: 25px;
         margin: 0;
         color: #777;
+    }
+
+    .menu-theme img {
+        width: 30px;
+        cursor: pointer;
     }
 
     .menu-list {
@@ -82,7 +101,7 @@
             top: 0;
         }
 
-        .menu-title, .menu-desc, .menu-links, .menu-list {
+        .menu-title, .menu-desc, .menu-links, .menu-theme, .menu-list {
             padding: 5%;
         }
     }

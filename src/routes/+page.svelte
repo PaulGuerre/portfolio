@@ -50,7 +50,6 @@
         align-items: start;
         justify-content: center;
         gap: 100px;
-        background-color: #fff;
     }
 
     @media (max-width: 768px) {
@@ -62,5 +61,9 @@
         .main-data {
             width: 100%;
         }
+    }
+
+    :global(body.dark-mode) .app {
+        background-color: #333;
     }
 </style>
