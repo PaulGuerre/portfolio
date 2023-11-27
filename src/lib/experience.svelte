@@ -31,7 +31,7 @@
 
     .experience-date {
         width: 20%;
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
     .experience-infos {
@@ -47,7 +47,7 @@
     }
 
     .experience-subtitle {
-        opacity: 0.5;
+        opacity: 0.9;
     }
 
     .experience-desc {

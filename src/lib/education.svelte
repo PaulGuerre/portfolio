@@ -39,7 +39,7 @@
 
     .education-date {
         width: 20%;
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
     .education-infos {
@@ -55,7 +55,7 @@
     }
 
     .education-subtitle {
-        opacity: 0.5;
+        opacity: 0.9;
     }
 
     .education-desc {
