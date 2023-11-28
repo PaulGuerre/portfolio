@@ -4,6 +4,8 @@
     import linkedin from '../lib/images/linkedin.svg';
     import sun from '../lib/images/sun.svg';
     import moon from '../lib/images/moon.svg';
+    import cv from '../lib/images/cv.svg';
+    import CV_ENG from '../lib/files/CV_PAUL_GUERRE_ENG.pdf';
     import { writable } from 'svelte/store';
 
     const isDarkMode = writable(false);
@@ -30,6 +32,7 @@
         <img on:click={toggleTheme} src={$isDarkMode ? sun : moon} alt="Theme logo" />
     </div>
     <div class="menu-links">
+        <a href={CV_ENG} target="_blank"><img src={cv} alt="CV logo" /></a>
         <a href="mailto:contact@paulguerre.fr"><img src={mail} alt="Mail logo" /></a>
         <a href="https://github.com/Paulobergine" target="_blank"><img src={github} alt="Github logo" /></a>
         <a href="https://www.linkedin.com/in/paul-guerre/" target="_blank"><img src={linkedin} alt="Linkedin logo" /></a>
