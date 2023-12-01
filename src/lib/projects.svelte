@@ -99,6 +99,6 @@
     }
 
     :global(body.dark-mode) .projects-tags p {
-        color: #333;
+        color: #222;
     }
 </style>

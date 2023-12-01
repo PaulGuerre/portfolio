@@ -13,7 +13,7 @@
     const toggleTheme = () => {
         isDarkMode.update(value => !value);
         window.document.body.classList.toggle('dark-mode');
-        window.document.body.style.backgroundColor = $isDarkMode ? '#333' : '#fff';
+        window.document.body.style.backgroundColor = $isDarkMode ? '#222' : '#fff';
     }
 </script>
 

@@ -64,6 +64,6 @@
     }
 
     :global(body.dark-mode) .app {
-        background-color: #333;
+        background-color: #222;
     }
 </style>
