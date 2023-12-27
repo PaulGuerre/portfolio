@@ -4,6 +4,7 @@
 </script>
 
 <section class="clients" id="clients">
+    <p class="clients-main">Clients</p>
     <div class="clients-card">
         <div class="clients-img"><img src={kameo} alt="Kameo company logo" /></div>
         <div class="clients-infos">
@@ -23,6 +24,14 @@
 <style>
     .clients {
         width: 100%;
+    }
+
+    .clients-main {
+        display: none;
+        padding: 5%;
+        font-size: 35px;
+        font-weight: bold;
+        color: #128fd8;
     }
 
     .clients-card {
@@ -72,6 +81,10 @@
 
         .clients-card {
             padding: 5%;
+        }
+
+        .clients-main {
+            display: inline;
         }
     }
 </style>    

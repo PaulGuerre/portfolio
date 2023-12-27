@@ -1,5 +1,6 @@
-<section class="education">
-    <div class="education-card" id="education">
+<section class="education" id="education">
+    <p class="education-main">Education</p>
+    <div class="education-card">
         <p class="education-date">2021 - 2024</p>
         <div class="education-infos">
             <a href="https://www.efrei.fr/" target="_blank" class="education-title">EFREI PARIS (PARIS) 🔗</a>
@@ -28,6 +29,14 @@
 <style>
     .education {
         width: 100%;
+    }
+
+    .education-main {
+        display: none;
+        padding: 5%;
+        font-size: 35px;
+        font-weight: bold;
+        color: #128fd8;
     }
 
     .education-card {
@@ -69,6 +78,10 @@
 
         .education-card {
             padding: 5%;
+        }
+
+        .education-main {
+            display: inline;
         }
     }
 </style>

@@ -4,6 +4,7 @@
 </script>
 
 <section class="projects" id="projects">
+    <p class="projects-main">Projects</p>
     <div class="projects-card">
         <div class="projects-img"><img src={terraphore} alt="Terraphore image" /></div>
         <div class="projects-infos">
@@ -33,6 +34,14 @@
 <style>
     .projects {
         width: 100%;
+    }
+
+    .projects-main {
+        display: none;
+        padding: 5%;
+        font-size: 35px;
+        font-weight: bold;
+        color: #128fd8;
     }
     
     .projects-card {
@@ -95,6 +104,10 @@
 
         .projects-card {
             padding: 5%;
+        }
+
+        .projects-main {
+            display: inline;
         }
     }
 

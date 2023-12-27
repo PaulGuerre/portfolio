@@ -1,4 +1,5 @@
 <section class="experience" id="experience">
+    <p class="experience-main">Experience</p>
     <div class="experience-card">
         <p class="experience-date">2022 - 2023</p>
         <div class="experience-infos">
@@ -20,6 +21,14 @@
 <style>
     .experience {
         width: 100%;
+    }
+
+    .experience-main {
+        display: none;
+        padding: 5%;
+        font-size: 35px;
+        font-weight: bold;
+        color: #128fd8;
     }
 
     .experience-card {
@@ -61,6 +70,10 @@
 
         .experience-card {
             padding: 5%;
+        }
+
+        .experience-main {
+            display: inline;
         }
     }
 </style>
