@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  paulguerre:
+    build: .
+    container_name: paulguerre
+    restart: unless-stopped
+    labels:
+      - "traefik.http.routers.paulguerre.rule=Host(`paulguerre.fr`)"
+      - "traefik.http.routers.paulguerre.tls=true"
+      - "traefik.http.routers.paulguerre.entrypoints=https,http"
+      - "traefik.http.routers.paulguerre.tls.certresolver=sukine"
+      - "traefik.enable=true"
