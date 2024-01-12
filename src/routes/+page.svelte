@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Paul Guerre</title>
-	<meta name="description" content="Paul Guerre's portfolio" />
+	<meta name="description" content="Freelance software engineer and full-stack developer, showcasing a diverse portfolio of innovative projects. Explore my educational background, professional experience, and client testimonials. Your go-to for transforming ideas into robust software solutions.">
 </svelte:head>
 
 <section class="app">
