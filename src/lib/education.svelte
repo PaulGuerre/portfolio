@@ -1,11 +1,25 @@
 <section class="education" id="education">
     <p class="education-main">Education</p>
     <div class="education-card">
-        <p class="education-date">2021 - 2024</p>
+        <p class="education-date">2021 - 2025</p>
         <div class="education-infos">
             <a href="https://www.efrei.fr/" target="_blank" class="education-title">EFREI PARIS (PARIS) 🔗</a>
             <p class="education-subtitle">Computer Science engineering degree</p>
             <p class="education-desc">Software engineering major</p>
+        </div>
+    </div>
+    <!-- <div class="education-card">
+        <p class="education-date">2024</p>
+        <div class="education-infos">
+            <a href="https://www.kaist.ac.kr/en/" target="_blank" class="education-title">KAIST (DAEJEON) 🔗</a>
+            <p class="education-subtitle">Semester in Daejeon, organized by EFREI</p>
+        </div>
+    </div> -->
+    <div class="education-card">
+        <p class="education-date">2023</p>
+        <div class="education-infos">
+            <a class="education-title">Gap year (MONTREAL)</a>
+            <p class="education-subtitle">First experience as a freelance developer and improvement in English</p>
         </div>
     </div>
     <div class="education-card">
@@ -13,7 +27,6 @@
         <div class="education-infos">
             <a href="https://www.concordia.ca/" target="_blank" class="education-title">Concordia University (MONTREAL) 🔗</a>
             <p class="education-subtitle">Semester in Montreal, organized by EFREI</p>
-            <p class="education-desc">Web, OS, Hardware, Networks, POO, UML, JAVA</p>
         </div>
     </div>
     <div class="education-card">
@@ -21,7 +34,6 @@
         <div class="education-infos">
             <a href="https://www.u-bourgogne.fr/" target="_blank" class="education-title">IUT DE DIJON-AUXERRE (DIJON) 🔗</a>
             <p class="education-subtitle">Two-year university degree in Computer Science</p>
-            <p class="education-desc">Algo, Web, POO, COO, UML, AI, System, Networks, DB</p>
         </div>
     </div>
 </section>
