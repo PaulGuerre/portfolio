@@ -1,5 +1,6 @@
 <script>
     import terraphore from './images/terraphore.jpg';
+    import sukify from './images/sukify.png';
     import imv from './images/imv.png';
 </script>
 
@@ -19,7 +20,20 @@
         </div>
     </div>
     <div class="projects-card">
-        <div class="projects-img"><img src={imv} alt="Terraphore image" /></div>
+        <div class="projects-img"><img src={sukify} alt="Sukify image" /></div>
+        <div class="projects-infos">
+            <p class="projects-title">Sukify</p>
+            <p class="projects-desc">Sukify is a private music web server that allows you to add and listen to music from Youtube. The web platform lets you download music and create playlists. About the music player, you have the option to enable shuffle music mode or music repeat mode. It uses the Youtube API.</p>
+            <div class="projects-tags">
+                <p>React</p>
+                <p>Docker</p>
+                <p>Next.js</p>
+                <p>Express</p>
+            </div>
+        </div>
+    </div>
+    <div class="projects-card">
+        <div class="projects-img"><img src={imv} alt="IMV image" /></div>
         <div class="projects-infos">
             <p class="projects-title">Instagram Messages Visualizer</p>
             <p class="projects-desc">This project allows users to delve into their Instagram private messages, accessing the entire conversation history. It enables users to trace back to their first-ever messages and also explore the most recent ones. Additionally, the web application offers insightful statistics, such as message count and the date of the initial conversation. Users simply need to upload the Instagram-provided zip file and select the conversation they wish to explore.</p>

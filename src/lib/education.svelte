@@ -8,13 +8,13 @@
             <p class="education-desc">Software engineering major</p>
         </div>
     </div>
-    <!-- <div class="education-card">
+    <div class="education-card">
         <p class="education-date">2024</p>
         <div class="education-infos">
             <a href="https://www.kaist.ac.kr/en/" target="_blank" class="education-title">KAIST (DAEJEON) 🔗</a>
-            <p class="education-subtitle">Semester in Daejeon, organized by EFREI</p>
+            <p class="education-subtitle">Semester in Daejeon, South Korea, organized by EFREI</p>
         </div>
-    </div> -->
+    </div>
     <div class="education-card">
         <p class="education-date">2023</p>
         <div class="education-infos">
