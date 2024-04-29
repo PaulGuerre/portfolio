@@ -34,7 +34,7 @@
     <div class="menu-links">
         <a href={CV_ENG} target="_blank"><img src={cv} alt="CV logo" /></a>
         <a href="mailto:contact@paulguerre.fr"><img src={mail} alt="Mail logo" /></a>
-        <a href="https://github.com/Paulobergine" target="_blank"><img src={github} alt="Github logo" /></a>
+        <a href="https://github.com/PaulGuerre" target="_blank"><img src={github} alt="Github logo" /></a>
         <a href="https://www.linkedin.com/in/paul-guerre/" target="_blank"><img src={linkedin} alt="Linkedin logo" /></a>
     </div>
 </section>
