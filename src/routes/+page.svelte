@@ -44,12 +44,11 @@
 
     .main-data {
         width: 50vw;
-        margin: 5% 0;
+        margin: 20px 0;
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: center;
-        gap: 100px;
     }
 
     @media (max-width: 768px) {

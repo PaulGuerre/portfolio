@@ -48,6 +48,7 @@
 <style>
     .projects {
         width: 100%;
+        margin-bottom: 75px;
     }
 
     .projects-main {
@@ -68,6 +69,7 @@
     .projects-img {
         width: 20%;
         margin-top: 5%;
+        text-align: center;
 
         & img {
             width: 80%;
@@ -112,10 +114,6 @@
     }
 
     @media (max-width: 768px) {
-        .projects-img, .projects-infos {
-            width: 100%;
-        }
-
         .projects-card {
             padding: 5%;
         }

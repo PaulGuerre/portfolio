@@ -43,6 +43,7 @@
     
     .clients-img {
         width: 20%;
+        text-align: center;
     
         & img {
             border: 2px solid #128fd8;
@@ -71,12 +72,12 @@
     }
 
     @media (max-width: 768px) {
-        .clients-img, .clients-infos {
-            width: 100%;
+        .clients-img {
+            text-align: center;
         }
 
         .clients-img img {
-            width: 25%;
+            margin: 25px 0;
         }
 
         .clients-card {
