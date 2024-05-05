@@ -27,6 +27,7 @@
         <div class="education-infos">
             <a href="https://www.kaist.ac.kr/en/" target="_blank" class="education-title">KAIST (SOUTH KOREA) 🔗</a>
             <p class="education-subtitle">Semester in Daejeon, South Korea, organized by EFREI</p>
+            <p class="education-desc">Software engineering major</p>
         </div>
     </div>
     <div class="education-card">
@@ -47,6 +48,7 @@
         <div class="education-infos">
             <a href="https://www.concordia.ca/" target="_blank" class="education-title">Concordia University (CANADA) 🔗</a>
             <p class="education-subtitle">Semester in Montreal, organized by EFREI</p>
+            <p class="education-desc">Software engineering major</p>
         </div>
     </div>
     <div class="education-card">
@@ -57,6 +59,7 @@
         <div class="education-infos">
             <a href="https://www.u-bourgogne.fr/" target="_blank" class="education-title">IUT DE DIJON-AUXERRE (FRANCE) 🔗</a>
             <p class="education-subtitle">Two-year university degree in Computer Science</p>
+            <p class="education-desc">Long study programm</p>
         </div>
     </div>
 </section>
