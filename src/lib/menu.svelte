@@ -27,6 +27,7 @@
         <p on:click={() => document.getElementById("education").scrollIntoView({ behavior: 'smooth' })}>Education</p>
         <p on:click={() => document.getElementById("projects").scrollIntoView({ behavior: 'smooth' })}>Projects</p>
         <p on:click={() => document.getElementById("awards").scrollIntoView({ behavior: 'smooth' })}>Awards</p>
+        <p on:click={() => document.getElementById("skills").scrollIntoView({ behavior: 'smooth' })}>Skills</p>
         <p on:click={() => document.getElementById("clients").scrollIntoView({ behavior: 'smooth' })}>Clients</p>
     </div>
     <div class="menu-theme">

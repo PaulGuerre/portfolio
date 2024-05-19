@@ -5,6 +5,7 @@
   import Experience from "$lib/experience.svelte";
   import Menu from "$lib/menu.svelte";
   import Projects from "$lib/projects.svelte";
+  import Skills from "$lib/skills.svelte";
 </script>
 
 <svelte:head>
@@ -20,6 +21,7 @@
             <Education />
             <Projects />
             <Awards />
+            <Skills />
             <Clients />
         </div>
     </div>
