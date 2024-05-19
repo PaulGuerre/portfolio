@@ -27,8 +27,7 @@
     }
 
     .clients-main {
-        display: none;
-        padding: 5%;
+        padding: 5% 5% 0 5%;
         font-size: 35px;
         font-weight: bold;
         color: #128fd8;
@@ -55,7 +54,7 @@
     
     .clients-infos {
         width: 80%;
-        margin-top: 5%;
+        margin-top: 5px;
     }
     
     .clients-title {

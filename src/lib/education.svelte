@@ -71,8 +71,7 @@
     }
 
     .education-main {
-        display: none;
-        padding: 5%;
+        padding: 5% 5% 0 5%;
         font-size: 35px;
         font-weight: bold;
         color: #128fd8;
