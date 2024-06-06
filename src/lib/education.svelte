@@ -32,7 +32,7 @@
     </div>
     <div class="education-card">
         <div class="education-header">
-            <p class="education-date">2023</p>
+            <p class="education-date">2023 - 2024</p>
             <div class="education-img"><img src={montreal} alt="Montréal image" /></div>
         </div>
         <div class="education-infos">
