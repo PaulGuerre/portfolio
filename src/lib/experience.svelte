@@ -1,4 +1,5 @@
 <script>
+    import sopraSteria from './images/sopraSteria.png';
     import kmb from './images/kmb.jpg';
     import satisfactory from './images/satisfactory.jpeg';
 </script>
@@ -7,13 +8,27 @@
     <p class="experience-main">Experience</p>
     <div class="experience-card">
         <div class="experience-header">
+            <p class="experience-date">2025 - present</p>
+            <div class="projects-img"><img src={sopraSteria} alt="Sopra Steria image" /></div>
+        </div>
+        <div class="experience-infos">
+            <a href="https://www.soprasteria.com/" target="_blank" class="experience-title">SOPRA STERIA (PARIS) 🔗</a>
+            <p class="experience-subtitle">Fullstack developer</p>
+        </div>
+    </div>
+    <div class="experience-card">
+        <div class="experience-header">
             <p class="experience-date">2022 - 2023</p>
             <div class="projects-img"><img src={kmb} alt="KMB image" /></div>
         </div>
         <div class="experience-infos">
             <a href="https://www.kmblabs.com/" target="_blank" class="experience-title">KMB LABS (PARIS) 🔗</a>
             <p class="experience-subtitle">Fullstack developer</p>
-            <p class="experience-desc">Participation and development of the company's products: chatbots, search engines, backoffice and other web services. Participation in the reflection on the logical and material architecture. Work on different technologies such as Node.js, React, GraphQL, Docker, serverless....</p>
+            <div class="experience-tags">
+                <p>React</p>
+                <p>Javascript</p>
+                <p>Docker</p>
+            </div>
         </div>
     </div>
     <div class="experience-card">
@@ -23,8 +38,12 @@
         </div>
         <div class="experience-infos">
             <a href="https://www.satisfactory.fr/" target="_blank" class="experience-title">SATISFACTORY (PARIS) 🔗</a>
-            <p class="experience-subtitle">Fullstack developer</p>
-            <p class="experience-desc">Development and maintenance of the company's web platform, which is its main product, within a team operating according to the principle of agility, on Angular, Symfony and Docker technologies</p>
+            <p class="experience-subtitle">Frontend developer</p>
+            <div class="experience-tags">
+                <p>Angular</p>
+                <p>Symfony</p>
+                <p>Docker</p>
+            </div>
         </div>
     </div>
 </section>
@@ -32,7 +51,7 @@
 <style>
     .experience {
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 
     .experience-main {
@@ -47,6 +66,7 @@
         flex-direction: row;
         align-items: baseline;
         flex-wrap: wrap;
+        margin-bottom: 25px;
     }
 
     .experience-header {
@@ -80,8 +100,22 @@
         opacity: 0.9;
     }
 
-    .experience-desc {
-        color: #777;
+    .experience-tags {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        & p {
+            margin: 0;
+            background-color: #128fd8;
+            color: #222;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 5px;
+        }
     }
 
     @media (max-width: 768px) {
@@ -92,5 +126,9 @@
         .experience-main {
             display: inline;
         }
+    }
+
+    :global(body.dark-mode) .experience-tags p {
+        color: #fff;
     }
 </style>

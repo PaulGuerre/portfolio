@@ -67,7 +67,7 @@
 <style>
     .education {
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 
     .education-main {

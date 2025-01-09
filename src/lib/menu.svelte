@@ -7,14 +7,39 @@
     import cv from '../lib/images/cv.svg';
     import CV_ENG from '../lib/files/CV_PAUL_GUERRE_ENG.pdf';
     import { writable } from 'svelte/store';
+    import { onMount } from 'svelte';
 
-    const isDarkMode = writable(false);
+    const isLightMode = writable(false);
 
     const toggleTheme = () => {
-        isDarkMode.update(value => !value);
+        isLightMode.update(value => !value);
         window.document.body.classList.toggle('dark-mode');
-        window.document.body.style.backgroundColor = $isDarkMode ? '#222' : '#fff';
+        window.document.body.style.backgroundColor = $isLightMode ? '#fff' : '#222';        
     }
+
+    onMount(() => {
+        const circle = document.createElement('div');
+        circle.classList.add('color-circle');
+        document.body.appendChild(circle);
+
+        document.addEventListener('mousemove', (event) => {
+            // Get mouse position
+            let mouseX = event.clientX;
+            let mouseY = event.clientY;
+
+            // Set position of the circle to follow the mouse
+            circle.style.left = (mouseX - 50) + 'px'; // Center the circle horizontally
+            circle.style.top = (mouseY - 50) + 'px';  // Center the circle vertically
+
+            // Calculate dynamic color based on mouse position
+            let red = Math.floor((mouseX / window.innerWidth) * 255);
+            let green = Math.floor((mouseY / window.innerHeight) * 255);
+            let blue = 200; // Set fixed blue for contrast
+
+            // Update the circle color
+            circle.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+        });
+    });
 </script>
 
 <section class="menu">
@@ -25,13 +50,10 @@
     <div class="menu-list">
         <p on:click={() => document.getElementById("experience").scrollIntoView({ behavior: 'smooth' })}>Experience</p>
         <p on:click={() => document.getElementById("education").scrollIntoView({ behavior: 'smooth' })}>Education</p>
-        <p on:click={() => document.getElementById("projects").scrollIntoView({ behavior: 'smooth' })}>Projects</p>
         <p on:click={() => document.getElementById("awards").scrollIntoView({ behavior: 'smooth' })}>Awards</p>
-        <p on:click={() => document.getElementById("skills").scrollIntoView({ behavior: 'smooth' })}>Skills</p>
-        <p on:click={() => document.getElementById("clients").scrollIntoView({ behavior: 'smooth' })}>Clients</p>
     </div>
     <div class="menu-theme">
-        <img on:click={toggleTheme} src={$isDarkMode ? sun : moon} alt="Theme logo" />
+        <img on:click={toggleTheme} src={$isLightMode ? moon : sun} alt="Theme logo" />
     </div>
     <div class="menu-links">
         <a href={CV_ENG} target="_blank"><img src={cv} alt="CV logo" /></a>
@@ -42,6 +64,15 @@
 </section>
 
 <style>
+    .color-circle {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      pointer-events: none;
+      mix-blend-mode: difference;
+    }
+
     .menu {
         width: 25vw;
         height: 100vh;

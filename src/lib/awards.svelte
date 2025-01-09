@@ -20,7 +20,7 @@
 <style>
     .awards {
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 
     .awards-main {

@@ -5,7 +5,6 @@
   import Experience from "$lib/experience.svelte";
   import Menu from "$lib/menu.svelte";
   import Projects from "$lib/projects.svelte";
-  import Skills from "$lib/skills.svelte";
 </script>
 
 <svelte:head>
@@ -19,10 +18,7 @@
         <div class="main-data">
             <Experience />
             <Education />
-            <Projects />
             <Awards />
-            <Skills />
-            <Clients />
         </div>
     </div>
 </section>
@@ -31,7 +27,7 @@
     .app {
         display: grid;
         width: 100%;
-        background-color: #fff;
+        background-color: #222;
         font-family: 'Roboto', sans-serif;
         color: #128fd8;
     }
@@ -67,6 +63,6 @@
     }
 
     :global(body.dark-mode) .app {
-        background-color: #222;
+        background-color: #fff;
     }
 </style>
