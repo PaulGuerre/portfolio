@@ -1,10 +1,8 @@
 <script>
   import Awards from "$lib/awards.svelte";
-  import Clients from "$lib/clients.svelte";
   import Education from "$lib/education.svelte";
   import Experience from "$lib/experience.svelte";
   import Menu from "$lib/menu.svelte";
-  import Projects from "$lib/projects.svelte";
 </script>
 
 <svelte:head>
