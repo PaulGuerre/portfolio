@@ -10,7 +10,7 @@
             <div class="awards-img"><img src={bouygues} alt="Bouygues Telecom image" /></div>
         </div>
         <div class="awards-infos">
-            <a href="https://www.efrei.fr/six-projets-davenir-pour-linnovation-day/" target="_blank" class="awards-title">1ST PRIZE INNOVATION DAY EFREI</a>
+            <a href="https://www.efrei.fr/six-projets-davenir-pour-linnovation-day/" target="_blank" class="awards-title">1ST PRIZE INNOVATION DAY EFREI 🔗</a>
             <p class="awards-subtitle">Efrei paris and Bouygues Telecom</p>
             <p class="awards-desc">Winning the first prize at the Efrei innovation day, by presenting the POC (proof of concept) of a tree-planting robot.</p>
         </div>
